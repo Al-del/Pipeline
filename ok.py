@@ -21,3 +21,5 @@ def load(ok=False):
                     plt.title(f'Channel: {channel}')
                     plt.show()
             return raw
+a=load()
+a.plot()
